@@ -33,4 +33,4 @@ tidydataset <- aggregate(. ~actid+subid+activityname,finaldf, mean)
 tidydataset<-tidydataset[order(tidydataset$actid,tidydataset$subid),]
 
 ##Writing the tidy dataset into text files
-write.table(tidydataset, "tidydataset.txt")
+write.table(tidydataset, "tidydataset.txt", row.names = FALSE)
