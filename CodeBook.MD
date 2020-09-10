@@ -3,7 +3,6 @@ output:
   pdf_document: default
   html_document: default
 ---
-
 #Code Book
 
 ##Getting and Cleaning Data Assignment
